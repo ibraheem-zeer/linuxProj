@@ -1,0 +1,11 @@
+[Unit]
+Description=Kernel Logs Backup Service
+
+[Service]
+Type=oneshot
+ExecStart=/path/to/backup_kernel_logs.sh
+
+[Install]
+WantedBy=default.target
+
+
